@@ -1,0 +1,52 @@
+body{
+    margin:0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Background design */
+.background{
+    background: linear-gradient(to right, #4b0000, #8b0000);
+    min-height:100vh;
+    padding:20px;
+    color:white;
+}
+
+/* Header */
+header{
+    text-align:center;
+    margin-bottom:30px;
+}
+
+/* Center table */
+.container{
+    display:flex;
+    justify-content:center;
+}
+
+/* Table stability */
+table{
+    width:600px;
+    border-collapse:collapse;
+    background:white;
+    color:black;
+    text-align:center;
+    box-shadow:0px 4px 10px rgba(0,0,0,0.4);
+}
+
+/* Table borders */
+th, td{
+    border:1px solid #ccc;
+    padding:12px;
+}
+
+/* Table header */
+thead{
+    background:#8b0000;
+    color:white;
+}
+
+/* Footer */
+footer{
+    text-align:center;
+    margin-top:40px;
+}
